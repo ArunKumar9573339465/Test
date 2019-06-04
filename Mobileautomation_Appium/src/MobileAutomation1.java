@@ -25,6 +25,8 @@ public class MobileAutomation1 {
 		cap.setCapability("devicename", "Mi");
 		cap.setCapability("app", path+"//app//ApiDemos.apk");
 		
+		System.out.println("Testing Git commit");
+		
 		try {
 			driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
 			
